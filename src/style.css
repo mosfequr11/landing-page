@@ -115,8 +115,8 @@ select {
 } */
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  /* html:focus-within {
+/* @media (prefers-reduced-motion: reduce) { */
+/* html:focus-within {
     scroll-behavior: auto;
   }
   *,
@@ -129,128 +129,127 @@ select {
   }
 } */
 
-  /* Utility class */
-  .clr-accent-400 {
-    color: var(--clr-accent-400);
-  }
+/* Utility class */
+.clr-accent-400 {
+  color: var(--clr-accent-400);
+}
 
-  .clr-accent-100 {
-    color: var(--clr-accent-100);
-  }
+.clr-accent-100 {
+  color: var(--clr-accent-100);
+}
 
-  .clr-primary-400 {
-    color: var(--clr-primary-400);
-  }
+.clr-primary-400 {
+  color: var(--clr-primary-400);
+}
 
-  .clr-neutral-100 {
-    color: var(--clr-neutral-100);
-  }
+.clr-neutral-100 {
+  color: var(--clr-neutral-100);
+}
 
-  .clr-neutral-900 {
-    color: var(--clr-neutral-900);
-  }
+.clr-neutral-900 {
+  color: var(--clr-neutral-900);
+}
 
-  /* BG color  */
-  .bg-clr-accent-400 {
-    background-color: var(--clr-accent-400);
-  }
+/* BG color  */
+.bg-clr-accent-400 {
+  background-color: var(--clr-accent-400);
+}
 
-  .bg-clr-accent-100 {
-    background-color: var(--clr-accent-100);
-  }
+.bg-clr-accent-100 {
+  background-color: var(--clr-accent-100);
+}
 
-  .bg-clr-primary-400 {
-    background-color: var(--clr-primary-400);
-  }
+.bg-clr-primary-400 {
+  background-color: var(--clr-primary-400);
+}
 
-  .bg-clr-neutral-100 {
-    background-color: var(--clr-neutral-100);
-  }
+.bg-clr-neutral-100 {
+  background-color: var(--clr-neutral-100);
+}
 
-  .bg-clr-neutral-900 {
-    background-color: var(--clr-neutral-900);
-  }
+.bg-clr-neutral-900 {
+  background-color: var(--clr-neutral-900);
+}
 
-  .text-neutral-100 {
-    color: var(--clr-neutral-100);
-  }
+.text-neutral-100 {
+  color: var(--clr-neutral-100);
+}
 
-  .fw-regular {
-    font-weight: var(--fw-regular);
-  }
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
 
-  .fw-semi-bold {
-    font-weight: var(--fw-semi-bold);
-  }
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
+}
 
-  .fw-bold {
-    font-weight: var(--fw-bold);
-  }
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
 
-  .fs-300 {
-    font-size: var(--fs-300);
-  }
+.fs-300 {
+  font-size: var(--fs-300);
+}
 
-  .fs-400 {
-    font-size: var(--fs-400);
-  }
+.fs-400 {
+  font-size: var(--fs-400);
+}
 
-  .fs-500 {
-    font-size: var(--fs-500);
-  }
+.fs-500 {
+  font-size: var(--fs-500);
+}
 
-  .fs-600 {
-    font-size: var(--fs-600);
-  }
+.fs-600 {
+  font-size: var(--fs-600);
+}
 
-  .fs-700 {
-    font-size: var(--fs-700);
-  }
+.fs-700 {
+  font-size: var(--fs-700);
+}
 
-  .fs-800 {
-    font-size: var(--fs-800);
-  }
+.fs-800 {
+  font-size: var(--fs-800);
+}
 
-  .fs-900 {
-    font-size: var(--fs-900);
-  }
+.fs-900 {
+  font-size: var(--fs-900);
+}
 
-  .fs-primary-heading {
-    font-size: var(--fs-primary-heading);
-  }
+.fs-primary-heading {
+  font-size: var(--fs-primary-heading);
+}
 
-  .fs-secondary-heading {
-    font-size: var(--fs-secondary-heading);
-  }
+.fs-secondary-heading {
+  font-size: var(--fs-secondary-heading);
+}
 
-  body {
-    font-size: var(--fs-body);
-    font-family: var(--ff-body);
-    color: var(--clr-neutral-900);
-  }
+body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-neutral-900);
+}
 
-  /* .container {
+/* .container {
     --max-width: 1110px;
     --padding: 1rem;
     width: min(var(--max-width), 100%-(var(--padding)*2));
     margin-inline: auto;
   } */
 
-  .container {
-    width: 1110px;
-    margin-inline: auto;
-  }
+.container {
+  width: 1110px;
+  margin-inline: auto;
+}
 
-  @media (min-width: 50em) {
-    :root {
-      --fs-body: var(--fs-500);
-      --fs-primary-heading: var(--fs-900);
-      --fs-secondary-heading: var(--fs-800);
-      --fs-nav: var(--fs-300);
-    }
+@media (min-width: 50em) {
+  :root {
+    --fs-body: var(--fs-500);
+    --fs-primary-heading: var(--fs-900);
+    --fs-secondary-heading: var(--fs-800);
+    --fs-nav: var(--fs-300);
   }
+}
 
-  .fs-secondary-heading {
-    font-size: var(--fs-secondary-heading);
-  }
+.fs-secondary-heading {
+  font-size: var(--fs-secondary-heading);
 }
