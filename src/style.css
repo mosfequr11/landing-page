@@ -8,6 +8,7 @@
   --clr-accent-400: hsl(12, 88%, 59%);
   /* --clr-orange-50: hsl(13, 100%, 96%); */
   --clr-accent-100: hsl(13, 100%, 96%);
+  --clr-accent-300: hsl(12, 88%, 75%);
   /* --clr-blue: hsl(228, 39%, 23%); */
   --clr-primary-400: hsl(228, 39%, 23%);
   /* --clr-gray-950: hsl(233, 12%, 13%); */
@@ -241,12 +242,13 @@ body {
   color: var(--clr-neutral-900);
 }
 
-/* .container {
+.container {
   --max-width: 1110px;
   --padding: 1rem;
-  width: min(var(--max-width), 100%-(var(--padding)*2));
+  width: min(var(--max-width), calc(100% - (var(--padding) * 2)));
   margin-inline: auto;
-} */
+}
+
 
 .button {
   border: 0;
@@ -260,9 +262,10 @@ body {
   text-decoration: none;
 }
 
-.container {
-  width: 1110px;
-  margin-inline: auto;
+.button:hover,
+.button:focus-visible {
+  background-color: var(--clr-accent-300);
+
 }
 
 .even-columns {
